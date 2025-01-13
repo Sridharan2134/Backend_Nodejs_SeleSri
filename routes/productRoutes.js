@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path'); // Ensure this is imported for path.join()
-const productController = require("../controllers/productController");
+const productController = require(`../controllers/productController`);
 
 const router = express.Router();
 
