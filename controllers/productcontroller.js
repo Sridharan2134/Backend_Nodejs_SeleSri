@@ -114,4 +114,4 @@ const deleteProductById = async (req, res) => {
     }
 };
 
-module.exports = { addProduct: [upload, handleFileUploadError, addProduct], getProductByFirm, deleteProductById };
+module.exports = { addProduct: [upload, handleFileUploadError, addProduct], getProductByFirm, deleteProductById  };
