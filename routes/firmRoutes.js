@@ -1,6 +1,6 @@
 const express = require('express');
-const firmController = require(`../controllers/firmcontroller`)
-const verifyToken=require(`../middleware/verifyToken`)
+const firmController = require('../controllers/firmController');
+const verifyToken = require('../middlewares/verifyToken');
 
 
 const router = express.Router()
